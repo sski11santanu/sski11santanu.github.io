@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Santanu Sikder</title>
+
+        <!-- Icon -->
+        <link rel = "icon" type = "image/jpg" href = "images\Santanu.jpg">
+        <!-- CSS CDN links -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Custom CSS -->
+        <style>
+            .contact-btn{
+                /* padding: 1px; */
+                border-radius: 20px;
+                border: 1px solid yellow;
+                padding-left: 5px;
+                width: 0px;
+            }
+
+            .separator-1{
+                display: block;
+                width: 100%;
+                margin-bottom: 45px;
+            }
+
+            .separator-2{
+                display: block;
+                width: 100%;
+                margin-top: 75px;
+            }
+        </style>
+    </head>
+
+    <body class = "d-flex flex-column align-items-center">
+        <!-- Navbar -->
+        <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark" style = "width: 100%">
+            <div class="container-fluid">
+              <a class="navbar-brand text-info fs-3 fw-bolder bg-danger text-light" style = "border-radius: 10px; padding-left: 10px; padding-right: 10px;" href="#">Santanu Sikder</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                  <a class="nav-link bg-dark" style = "border-radius: 20px; box-shadow: 0px 0px 10px white; padding-left: 10px; padding-right: 10px;" href="#contact"><!-- <button class = "btn btn-warning">Contact</button> -->Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+        <!-- Separate the fixed navbar from content -->
+          <!-- Separator 1 -->
+        <div class = "separator-1"></div>
+
+        <!-- Home -->
+        <div class="card bg-dark text-light mt-5 p-5 d-flex flex-column align-content-center" id = "home" style="width: 90%; border-radius: 25px;">
+            <div class = "d-flex flex-row justify-content-center card-header">
+                <img class = "rounded-circle" src="images/Santanu.jpg" width = "250px" height = "250px" alt="Santanu Sikder">
+            </div>
+            <div class="card-body text-center">
+              <div>
+                <h3 class="card-title">Namastey! I am <b><u>Santanu Sikder</u></b></h3>
+                <p class="card-text">I am a data science student and hobbyist data analyst. I love to play with data, find trends, draw insights and tell stories with it for fun or to benefit stakeholders. I love to build, analyze and model data using ML and deep learning techniques.
+              </div>
+            </div>
+          </div>
+
+        <!-- To separate content from the fixed footer -->
+        <!-- Separator -1 -->
+        <div class = "separator-2"></div>
+
+        <!-- Footer -->
+        <footer class = "fixed-bottom d-flex flex-column align-items-center bg-dark text-light">
+            <span class = "fs-4 fw-bolder text-info">&copy;Santanu Sikder</span>
+            <span class = "fs-6 fst-italic">&lt;This page is under construction&gt;</span>
+        </footer>
+
+
+        <!-- Bootstrap 5 JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
